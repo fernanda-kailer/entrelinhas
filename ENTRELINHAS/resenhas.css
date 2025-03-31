@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Times New Roman", serif;
+    background-color: #FFFAE5;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.logo-text {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;  
+}
+
+#logo-link{
+    text-decoration: none;
+    color: black;
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px;
+    width: 20%;
+    background-color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.center-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.center-icon img {
+    height: 70px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    width: 50%;
+    align-items: center;
+}
+
+.social-icons a:hover {
+    opacity: 0.7;
+}
+.social-icons-img{
+    height: 20px;
+}
+
+.menu {
+    width: 270px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    margin: 20px ;
+}
+.menu a:hover {
+    background-color: #f4e1c4;
+    border-radius: 5px;
+}
+
+.container {
+    padding-left: 8%;
+    padding-right: 5%;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    position: relative;
+}
+
+.livro {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.livro img {
+    width: 170px;
+    margin-top: 50px;
+}
+
+.sinopse-texto{
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    width: 900px;
+}
+.sinopse h2.resenhas h2 {
+    font-size: 26px;
+    margin-bottom: -30px;
+}
+
+.sinopse p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.stars {
+    margin-top: 10px;
+    font-size: 18px;
+    color: black;
+}
+
+.resenhas{
+    width: 900px;
+    margin-left: 17%;
+}
+.resenha-box {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 900px;
+    
+}
+
+.resenha-box img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.resenha-box .texto {
+    flex: 1;
+}
+
+.resenha-box .botao {
+    background: black;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 80%;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 8%;
+    position: relative;
+}
